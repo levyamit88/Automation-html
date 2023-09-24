@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<title>Automation Project</title>
+<link rel="icon" type="image/x-icon" href="favicon/fav.ico">
+<link rel="stylesheet" href="css/styles.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<style>
+body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
+.w3-third img{margin-bottom: -6px; opacity: 0.8; cursor: pointer}
+.w3-third img:hover{opacity: 1}
+</style>
+</head>
+<body class="w3-content" style="max-width:1600px">
+
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-bar-block w3-white w3-text-grey w3-collapse w3-top w3-center" style="z-index:3;width:300px;font-weight:bold" id="mySidebar"><br>
+</br>
+<img src="images/amit2.jpg" alt="A picture of me in Budapest :)" class="img" onclick="onClick(this)" >
+  <h2><b>Amit Levy</b></h2>
+  <h4>QA Automation</h4></br>
+  </br>
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-hide-large">CLOSE</a>
+  <a href="#project" onclick="w3_close()" class="w3-bar-item w3-button">PROJECT</a> 
+  <a href="#details" onclick="w3_close()" class="w3-bar-item w3-button">DETAILS</a> 
+  <a href="#technologies" onclick="w3_close()" class="w3-bar-item w3-button">TECHNOLOGIES</a>
+  <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">CONTACT</a>	  
+  </br>
+  <ul class="w3-left">
+   <i><a href="https://www.facebook.com/amit.levy.712?mibextid=ZbWKwL" target="_blank" class="fa fa-facebook"></a></i>
+   <i><a href="http://www.linkedin.com/in/levyamit88/" target="_blank" class="fa fa-linkedin"></a></i>
+   <i><a href="https://www.instagram.com/levyamit88" target="_blank" class="fa fa-instagram"></a></i>
+   <i><a href="https://github.com/levyamit88" target="_blank" class="fa fa-github"></a></i>
+  </ul>
+</nav>
+
+<!-- Top menu on small screens -->
+<header class="w3-container w3-top w3-hide-large w3-white w3-xlarge w3-padding-16">
+  <span class="w3-left w3-padding">Amit Levy</span>
+  <a href="javascript:void(0)" class="w3-right w3-button w3-white" onclick="w3_open()">☰</a>
+</header>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:300px">
+
+  <!-- Push down content on small screens --> 
+  <div class="w3-hide-large" style="margin-top:83px"></div>
+
+
+
+  <!-- Project section -->
+  <div class="w3-container background-color w3-text-light-grey w3-padding-32" id="project">
+	
+    <h2 class="w3-center font"><b>AUTOMATION PROJECT</b></h2>
+    <div class="w3-content w3-justify w3-center" style="max-width:1000px">
+      <p class="font">This project was developed on the InvolveMe website.</br>
+	     It covers the full workflow and demonstrates the core features and capabilities of any website, 
+	   providing a full experience to practice the scenarios you might find in real-time projects.</br>
+	   InvolveMe is a no-code funnel builder that allows anyone to easily create highly customizable funnels for acquiring, converting, and retaining customers.</p>
+	   <video width="100%" height="auto" controls="controls">
+        <source src="video/projectVideo.mp4" type="video/mp4" />
+       </video>
+	     <h5><a href="https://github.com/levyamit88/AutomationProjectCode" target="_blank" class="w3-button w3-padding-large w3-light-grey">My code on GitHub</a></h5>
+
+	  <!-- Details grid -->
+	 <div class="w3-container  w3-text-light-grey w3-padding-32" id="details">
+	 <hr class="w3-opacity">
+     <h2 class="w3-center font"><b>PROJECT DETAILS</b></h2>
+	 
+      <div class="w3-row">
+       <div class="w3-third">
+        <img src="images/allureOverview.png" class="details" style="width:100%" height="auto" onclick="onClick(this)" alt="Allure's overview of the involvMe testing project">
+        <img src="images/allureGraphs.png" class="details" style="width:100%" height="auto" onclick="onClick(this)" alt="Graphical analysis of test results">
+       </div>
+
+    <div class="w3-third">
+     <img src="images/allureFailed.png" class="details" style="width:100%" height="auto" onclick="onClick(this)" alt="Sorting the tests by passed/failed/skipped etc.">
+     <img src="images/failedScreenShot.png" class="details" style="width:100%" height="auto" onclick="onClick(this)" alt="Automatic screenshot when the run found a test that failed">
+    </div>
+	
+	<div class="w3-third">
+     <img src="images/STD.png" class="details" style="width:100%" height="auto" onclick="onClick(this)" alt="Example of test cases in STD document">
+     <img src="images/bugDocument.png" class="details" style="width:100%" height="auto" onclick="onClick(this)" alt="Example of a bug documentation">
+    </div>
+	</div>
+	</div> 
+	<div class="w3-container w3-center w3-text-light-grey w3-padding-32 w3-row" id="technologies">
+      <hr class="w3-opacity">
+	  <h2 class="w3-center font"><b>TECHNOLOGIES</b></h2>	
+		<div class="content w3-content">
+	<ul class="team">
+		<li class="member co-funder">
+			<div class="thumb"><img src="images/git.png" class="git"></div>
+			<h3><b>GIT</b></h3></br></br>
+			<div class="description">
+				<p>Git is a software for tracking changes to any set of files, typically used to coordinate work between programmers.</p>
+			</div>
+		</li>
+		<li class="member co-funder">
+			<div class="thumb"><img src="images/jenkins.png" class="jenkins"></div>
+			<h3><b>JENKINS</b></h3></br></br>
+			<div class="description">
+				<p>Jenkins is an open source automation server that enables developers around the world to reliably build, test and deploy their software.</p>
+			</div>
+		</li>	
+		<li class="member co-funder">
+			<div class="thumb"><img src="images/maven.png" class="maven"></div>
+			<h3><b>MAVEN</b></h3></br></br>
+			<div class="description">
+				<p>Maven is an automation and management tool. The main feature of Maven is that it can automatically download the project dependency libraries.</p>
+			</div>
+		</li>						
+		<li class="member co-funder">
+			<div class="thumb"><img src="images/java.png" class="java"></div>
+			<h3><b>JAVA</b></h3></br></br>
+			<div class="description">
+				<p>Java is an OOP language that is free to use and can run on all platforms. It is fast, secure and reliable, so it is widely used for application development.</p>
+			</div>
+		</li>
+		<li class="member co-funder">
+			<div class="thumb"><img src="images/testng.png" class="testng"></div>
+			<h3><b>TESTNG</b></h3></br></br>
+			<div class="description">
+				<p>TestNG is a testing framework for the Java programming language. TestNG's design goal is to cover a wider range of test categories: unit, functional, end-to-end, integration, etc.</p>
+			</div>
+		</li>						
+		<li class="member co-funder">
+			<div class="thumb"><img src="images/allure.png" class="allure"></div>
+			<h3><b>ALLURE</b></h3></br></br>
+			<div class="description">
+				<p>A flexible lightweight multi-language test report tool designed to create fancy and clear testing reports.</p>
+			</div>
+		</li>
+		<ul/>
+      
+	</div> 
+</div>	
+	<hr class="w3-opacity">	
+
+  <!-- Modal for full size images on click-->
+  <div id="modal01" class="w3-modal w3-black" style="padding-top:0" onclick="this.style.display='none'">
+    <span class="w3-button w3-black w3-xlarge w3-display-topright">X</span>
+    <div class="image-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+      <img id="img01" class="w3-image">
+      <p id="caption"></p>
+    </div>
+  </div>
+
+  <!-- Contact section -->
+  <div class="w3-container w3-padding-32 w3-padding-large w3-light-grey" id="contact">
+    <div class="w3-content" style="max-width:900px">
+		  <h2 class="w3-center font"><b>GET IN TOUCH</b></h2>
+	<div class="left">
+	<i class="fa fa-home" style="font-size:24px"></i><a href="https://maps.app.goo.gl/Ft2YXjm56FXaj7ub7" target="_blank" style="font-size:17px; color:#137ca3; font-family: Arial">Talmei Menashe</a></br> 
+	<i class="fa fa-phone" style="font-size:24px"></i><a href="tel:+972548351210" style="font-size:17px; color:#137ca3; font-family: Arial">054-8351210</a>
+	<a href="https://wa.me/548351210" target="_blank" class="fa fa-whatsapp" style="font-size:32px;color:#18db1b"></a></br>
+	<i class="fa fa-paper-plane" style="font-size:24px"></i><a href="mailto:levyamit88@gmail.com" target="_blank" style="font-size:17px; color:#137ca3; font-family: Arial">Levyamit88@gmail.com</a></br>
+	<i class="fa fa-globe" style="font-size:24px"></i><a href="https://levyamit88.github.io/key-story" target="_blank" style="font-size:17px; color:#137ca3; font-family: Arial">Personal website</a>
+  
+		</div>
+	 </div>
+</div> 
+<!-- End page content -->
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+  document.getElementById("myOverlay").style.display = "block";
+}
+ 
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+  document.getElementById("myOverlay").style.display = "none";
+}
+
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+</script>
+
+
+</body>
+</html>
